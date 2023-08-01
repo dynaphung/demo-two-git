@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+}
+header{
+    flex: 1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+main{
+    flex: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
